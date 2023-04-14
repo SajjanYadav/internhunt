@@ -1,6 +1,8 @@
-const researchEndpoint = 'http://localhost:8000/research';
-const faangEndpoint = 'http://localhost:8000/faang';
-const startupsEndpoint = 'http://localhost:8000/startups';
+require('dotenv').config();
+
+const researchEndpoint = `${process.env.API_ENDPOINT}/research`;
+const faangEndpoint = `${process.env.API_ENDPOINT}/faang`;
+const startupsEndpoint = `${process.env.API_ENDPOINT}/startups`;
 
 exports.get_all_internships = async (req, res, next) => {
   try {
