@@ -1,8 +1,13 @@
 import React, { useEffect } from "react";
 import Card from "./Card";
-import Api from "./API";
+
+
 const Mid = () => {
-  const [apiData, setApiData] = React.useState(Api);
+  const [apiData, setApiData] = React.useState([]);
+  
+  useEffect(() => {
+    getApiList("research");
+  }, []);
 
   const getApiList = (category) => {
     fetch(`https://internment.onrender.com/${category}`)
