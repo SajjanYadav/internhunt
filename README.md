@@ -7,7 +7,7 @@
 </p>
 
 # Features
-- all types of Internship at one Place (SDE, Management, Backend, Frontend, Product, Management etc)
+- all types of Internship at one Place (SDE, Management, Backend, Frontend, Product etc)
 - Catorise on the basis of StartUp, Maang and Research
 - Universal Search to find out Specfic Role & Company 
 
