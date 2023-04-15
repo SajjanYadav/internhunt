@@ -51,9 +51,7 @@ $ npm i
 $ npm run dev
 ```
 # Deployment on NAPPTIVE
-- To deploy the application on NAPPTIVE you first need to fork the repository.
-- Second copy the below YAML file and follow the step shown in the video : https://www.youtube.com/watch?v=-DRVG_oWYbk
-- NOTE: Donot forget to change the username in image tag.
+- To deploy the application on NAPPTIVE copy the below YAML file and follow the step shown in the video : https://www.youtube.com/watch?v=-DRVG_oWYbk
 ```
 apiVersion: core.oam.dev/v1beta1
 kind: Application
