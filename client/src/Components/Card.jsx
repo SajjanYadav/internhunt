@@ -13,7 +13,7 @@ const Card = ({ apiData }) => {
           {apiData.map((CurrentEl) => {
             return (
               <>
-                <div class=" cards bg-blue-300 bg h-full p-8 border-4 border-blue-400 rounded-lg flex  justify-center sm:mx-2 sm:p-3 md:p-8">
+                <div class="shadow-2xl hover:border-gray-700 cards bg-blue-300 bg h-full p-8 border-4 border-blue-400 rounded-lg flex  justify-center sm:mx-2 sm:p-3 md:p-8">
                   <div class="flex flex-col items-center  ml-6">
                     <div class="mt-3 text-2xl font-bold">{CurrentEl.title}</div>
                     <div class="text-center mt-2 text-gray-600 text-sm">

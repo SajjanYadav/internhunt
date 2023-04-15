@@ -5,7 +5,7 @@ const Mid = () => {
   const [apiData, setApiData] = React.useState(Api);
 
   const getApiList = (category) => {
-    fetch(`http://localhost:8000/${category}`)
+    fetch(`https://internment.onrender.com/${category}`)
       .then((res) => res.json())
       .then((data) => {
         const updatedList = data.slice(0, 800);
