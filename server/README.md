@@ -1,8 +1,8 @@
 ## InternHunt
 
-Only research on [http://localhost:8000/research](http://localhost:8000/research)    
-only faang at [http://localhost:8000/faang](http://localhost:8000/faang)   
-and startups at [http://localhost:8000/startups](http://localhost:8000/startups)   
+GET research internships at [http://localhost:8000/research](http://localhost:8000/research)    
+GET faang internships at [http://localhost:8000/faang](http://localhost:8000/faang)   
+GET startup internships at [http://localhost:8000/startups](http://localhost:8000/startups)   
 
 ---
 T0 the run the project locally  
