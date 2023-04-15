@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  server:
+    build: ./server
+    container_name: internhunt-backend
+    ports: 
+      - "8000:8000"
+  
+  client:
+    build: ./client
+    container_name: internhunt-client
+    ports:
+      - "5173:5173"
+    stdin_open: true
+    tty: true

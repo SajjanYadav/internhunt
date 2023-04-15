@@ -30,16 +30,10 @@ const Mid = () => {
             Maang
           </button>
           <button
-            className="mx-1 px-3 py-1  border-black border-2 border-solid font-bold hover:bg-slate-200 bg-white"
+            className="mx-1 px-3 py-1 rounded-r-full border-black border-2 border-solid hover:bg-slate-200 font-bold bg-white"
             onClick={() => getApiList("research")}
           >
             Research
-          </button>
-          <button
-            className="mx-1 px-3 py-1 rounded-r-full border-black border-2 border-solid hover:bg-slate-200 font-bold bg-white"
-            onClick={() => getApiList(" ")}
-          >
-            All
           </button>
         </div>
       </nav>
