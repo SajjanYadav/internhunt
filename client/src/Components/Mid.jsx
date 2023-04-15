@@ -4,13 +4,6 @@ import Api from "./API";
 const Mid = () => {
   const [apiData, setApiData] = React.useState(Api);
 
-  // useEffect(() => {
-  //   fetch("http://localhost:8000/research")
-  //     .then((resp) => resp.json())
-  //     .then((LoadData) => {
-  //       setApiData(LoadData)
-  // }, []);
-
   const getApiList = (category) => {
     fetch(`http://localhost:8000/${category}`)
       .then((res) => res.json())
