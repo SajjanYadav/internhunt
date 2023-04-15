@@ -44,14 +44,13 @@ const Header = () => {
         <div className="px-6 py-8">
           <h1 className=" font-extrabold mt-4 text-5xl">InternHunt</h1>
           <p className="my-4 text-3xl">
-            Found Internship in any field adipisicing elit.
+            Join the hunt for your dream internship with InternHunt.
           </p>
           <p className="mt-3 mr-8">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            distinctio mollitia officia ratione provident modi, ab neque aliquid
-            explicabo nulla, nostrum numquam. Est quae sunt possimus asperiores
-            fuga minima ipsa.explicabo nulla, nostrum numquam. Est quae sunt
-            possimus asperiores fuga minima ipsa.
+          Internhunt is a one-stop platform for students to find internships easily and efficiently. 
+          The aim of the project is to simplify the process of finding internships by gathering all the 
+          relevant data in one place. Say goodbye to endless website scrolling and let Internhunt 
+          do the hard work for you!
           </p>
           <div className="flex flex-row mx-1 sm:mx-2 mt-8">
             <a
