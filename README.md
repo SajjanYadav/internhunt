@@ -8,7 +8,7 @@
   Internhunt is a one-stop platform for students to find internships easily and efficiently. The aim of the project is to simplify the process of finding     internships by gathering all the relevant data in one place. Say goodbye to endless website scrolling and let Internhunt do that for you!
 </p>  
 
-<img width="1200" height="600" src="https://github.com/hamees-sayed/internhunt/blob/main/client/src/Components/img/yo1/screely-1681555870010.png" />        
+<img width="1200" height="600" src="https://github.com/hamees-sayed/internhunt/blob/main/client/src/Components/img/yo1/screely-1681556317784.png" />        
 
 ---  
 # What is it? 
