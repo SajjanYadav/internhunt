@@ -4,9 +4,9 @@ const cheerio = require("cheerio")
 exports.get_research_list = (req, res, next) => {
     const link = "https://github.com/himahuja/Research-Internships-for-Undergraduates#this-is-a-non-exhaustive-list-of-opportunities-available-to-undergraduate-students-many-of-these-positions-are-only-focussed-towards-indian-students"
 
-const filteredData = []
+    const filteredData = []
 
-axios(link)
+    axios(link)
     .then(response => {
         const html = response.data
         const $ = cheerio.load(html)
@@ -33,5 +33,5 @@ axios(link)
             }
         }
         res.json(filteredData)
-    }).catch(err => console.log(err))
+    })
 }
