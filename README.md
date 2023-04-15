@@ -13,6 +13,7 @@
 ---  
 # What is it? 
 Internhunt is a one-stop platform for students to find internships easily and efficiently. The aim of the project is to simplify the process of finding internships by gathering all the relevant data in one place by scraping the web and presenting it in an organized manner. Say goodbye to endless website scrolling and let Internhunt do the hard work for you!
+
 ![image](https://user-images.githubusercontent.com/98336593/232202030-d7a5343e-bf28-4706-bd7e-59e3c5c9400a.png)
 
 # Features
