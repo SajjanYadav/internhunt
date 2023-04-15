@@ -6,8 +6,7 @@
 
 
 # What is it ?
-<p align="center">
-  Internhunt is a one-stop platform for students to find internships easily and efficiently. The aim of the project is to simplify the process of finding     internships by gathering all the relevant data in one place. Say goodbye to endless website scrolling and let Internhunt do that for you!
+<p align="center">                                                                                                                              Internhunt is a one-stop platform for students to find internships easily and efficiently. The aim of the project is to simplify the process of finding     internships by gathering all the relevant data in one place. Say goodbye to endless website scrolling and let Internhunt do that for you!
 </p>  
 
 <!-- <img width="1200" height="600" src="https://github.com/hamees-sayed/internhunt/blob/main/client/src/Components/img/yo1/screely-1681556317784.png" /> -->
@@ -19,7 +18,7 @@
 
 # Features
 - All types of Internship at one Place. (SDE, Management, Backend, Frontend, Web Design, etc)
-- Catorise on the basis of companies such Startups, Maang and Research Universities.
+- Catorise on the basis of companies such Startups, Maang and Research Opportunities.
 - Search feature to find out Specfic Role & Company.
 
 # Technologies Used
@@ -50,6 +49,34 @@ $ cd client
 # From `client` directory, run:
 $ npm i
 $ npm run dev
+```
+# Deployment on NAPPTIVE
+- To deploy the application on NAPPTIVE copy the below YAML file and follow the step shown in the video : https://www.youtube.com/watch?v=-DRVG_oWYbk
+```
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: internhunt
+  annotations:
+    version: "v0.0.1"
+    description: "Hackathon Project - Napptive"
+spec:
+  components:
+    - name: internhunt
+      type: webservice
+      properties:
+        image: hameessayed/internhunt-client:latest
+        cpu: "250m"
+        memory: "512M"
+        ports:
+          - port: 5173
+            expose: true
+      traits:
+      - type: napptive-ingress
+        properties:
+          name: internhunt
+          port: 5173
+          path: /
 ```
 # Features to be Added
 - We plan to further add more filters. 
